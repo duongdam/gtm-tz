@@ -1,9 +1,8 @@
 import moment from "moment-timezone";
 
-
-const gtmTz = (zone) => {
+function gtmTz(time_zone?: string) {
     let result = ''
-    const tz = zone ? (+moment.tz(zone).format('ZZ')) / 100 : (+moment().format('ZZ')) / 100
+    const tz = time_zone ? (+moment.tz(time_zone).format('ZZ')) / 100 : (+moment().format('ZZ')) / 100
     const isInt = Number.isInteger(tz)
     if (!isInt) {
         result = `${`${tz}`.replace('.', ':')}0`
