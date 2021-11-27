@@ -1,0 +1,19 @@
+{
+  "name": "gtm-tz",
+  "version": "1.0.0",
+  "description": "Get GTM time zone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "GTM",
+    "value",
+    "GTM",
+    "time",
+    "zone",
+    "value"
+  ],
+  "author": "duongdam",
+  "license": "MIT"
+}
